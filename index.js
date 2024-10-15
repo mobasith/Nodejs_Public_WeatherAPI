@@ -33,7 +33,7 @@ const Weather = mongoose.model('Weather', weatherSchema);
 // API route to get weather data and save it to MongoDB
 app.get('/save-weather', async (req, res) => {
   try {
-    const apiKey = '80c3642041865316a89edf03d2bbb4af';  // Your OpenWeatherMap API key
+    const apiKey = '// Your OpenWeatherMap API key//';
     const city = req.query.city;  // Get the city from query parameter
     
     // Check if city is provided in the query
